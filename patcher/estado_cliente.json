@@ -632,13 +632,13 @@
     },
     {
       "path": "pack/root.data",
-      "sha256": "981677a2362fb030e3d826bd5010a81e12f47722cfa48a22f423bcf1d0afb46e",
-      "size": 5328232
+      "sha256": "38528fd0821619a30fed36ad3cdf479a0b79d42854a5393796eef19e65abcd67",
+      "size": 5328233
     },
     {
       "path": "pack/root.index",
-      "sha256": "f63b794666ca37b1b8814bc22f42d913065a28035241d886d4d9f3d892ef3df9",
-      "size": 11464
+      "sha256": "6a0a0edfee7467f6985b4e2e81e8605e6665c8692f368e169914b1ce01960d52",
+      "size": 11472
     },
     {
       "path": "pack/sound.data",
