@@ -1,0 +1,695 @@
+{
+  "files": [
+    {
+      "path": "config.exe",
+      "sha256": "9d81ae9fad41151e72298177d1520741a9e70e417635578ec32cf919ee69b505",
+      "size": 2064824
+    },
+    {
+      "path": "metin2client.exe",
+      "sha256": "0f122ef280e681a9327063d06f5a9271e7fcf946e0974e2f202f2e2e61d7f6d4",
+      "size": 3415040
+    },
+    {
+      "path": "pack/bgm.data",
+      "sha256": "a9dae918aea397421831bc37c47dfc7155d6fc3c2491c98747c0a02cf7138e46",
+      "size": 9333659
+    },
+    {
+      "path": "pack/bgm.index",
+      "sha256": "a81807d2dcb7c1b53a96677d94e82070bce8875097ccb7cb51db48b42999d7c1",
+      "size": 248
+    },
+    {
+      "path": "pack/effect.data",
+      "sha256": "7e76e02f34f72eae17d9d1269b0058ce9b8a7da9679bd77d485c4eab1d445118",
+      "size": 94503517
+    },
+    {
+      "path": "pack/effect.index",
+      "sha256": "679ae363b7f157078f764b08b303a5ad36b8c7b0cc021f7a099c438df5557ae7",
+      "size": 65848
+    },
+    {
+      "path": "pack/etc.data",
+      "sha256": "c5aab50ffb660ea37aae524e7b21375c950ac8e22c171c470f9d02a7abfd4a39",
+      "size": 115980683
+    },
+    {
+      "path": "pack/etc.index",
+      "sha256": "8280b0c9f878e4b38b64b5e04aae4f9cca3f488b85873cbad6d4070c4d394666",
+      "size": 142752
+    },
+    {
+      "path": "pack/guild.data",
+      "sha256": "716e8e8cf4431b784c64f862a441786c56a2b161e2e70ddebce5e3a1d883c88b",
+      "size": 7889096
+    },
+    {
+      "path": "pack/guild.index",
+      "sha256": "d5800f06e342d2af20bc0d7d17361bda91c5a0e3592f139114efbbc5dc83e27e",
+      "size": 6512
+    },
+    {
+      "path": "pack/icon.data",
+      "sha256": "bdd9fcb1979a5a37f2915d9922a76276ce4ca7cc242bbfff229969c7eb42a836",
+      "size": 22795885
+    },
+    {
+      "path": "pack/icon.index",
+      "sha256": "90946a7ce3fee69245d623bbe5e14126ecd25940fb64ee5f9a853d76becafdbc",
+      "size": 112584
+    },
+    {
+      "path": "pack/item.data",
+      "sha256": "7012db65022675d746dffdd9b6ccbdaae95a06b4316450a006e488148239f7b7",
+      "size": 54752330
+    },
+    {
+      "path": "pack/item.index",
+      "sha256": "fe1177b70cd044b555418c5b72f28f10fb1061bfd77576eb9bbf03ea365966ef",
+      "size": 74056
+    },
+    {
+      "path": "pack/locale_tr.data",
+      "sha256": "bab4e41695ccdad1a514cb24ab2e1b6735828328b27c8d16ac037d14943bea6f",
+      "size": 190947424
+    },
+    {
+      "path": "pack/locale_tr.index",
+      "sha256": "35b25e4aa14970953884af1160bf7180dc9b2bcbe08fe5ed1f423353b3f7c23c",
+      "size": 98600
+    },
+    {
+      "path": "pack/metin2_patch_12zi_map.data",
+      "sha256": "2786c789fc6b830d8de9009d3f62cab7672d9f96a4267c4d9f11697b6c7e0723",
+      "size": 35511220
+    },
+    {
+      "path": "pack/metin2_patch_12zi_map.index",
+      "sha256": "0f038d6a6984ac2227956b153ab970b5d4d6cfe20b393932d690fe8d95988db1",
+      "size": 21976
+    },
+    {
+      "path": "pack/metin2_patch_12zi_mob.data",
+      "sha256": "0f7843a001e5af9450d32bc70755f5f270cbffdf928291f2447a7c37f2ebbd50",
+      "size": 47886348
+    },
+    {
+      "path": "pack/metin2_patch_12zi_mob.index",
+      "sha256": "14cac2b3bb3c4fe6c6126cbdfd51ac7cb29d94f09b25ace337d3ad96ca1a50ea",
+      "size": 38680
+    },
+    {
+      "path": "pack/metin2_patch_12zi_obj.data",
+      "sha256": "55db3e03f4913bbe1e7a83936c81531ecb45df43f63202e54be5fe99192fdf4b",
+      "size": 1162988
+    },
+    {
+      "path": "pack/metin2_patch_12zi_obj.index",
+      "sha256": "765243f37995e4d71fb2dc5d0c284f63801c4eea1dfafc1f1caccd79442a8618",
+      "size": 936
+    },
+    {
+      "path": "pack/metin2_patch_aggregate.data",
+      "sha256": "09f1c24bc04821dd864f3e3e5c18fa04b3a18087d7a75db3760774fc0c8549d2",
+      "size": 39976
+    },
+    {
+      "path": "pack/metin2_patch_aggregate.index",
+      "sha256": "378fffc30ee65c75d45dc7e03111fd133f0fa05905851c624b49844027bddc12",
+      "size": 216
+    },
+    {
+      "path": "pack/metin2_patch_anglar_dungeon.data",
+      "sha256": "bd5f5b3244797ec707d1fb76bbbe2d1e20df2dee52e4e4c120030925577f5d6a",
+      "size": 21320251
+    },
+    {
+      "path": "pack/metin2_patch_anglar_dungeon.index",
+      "sha256": "1c713ac1396a9cb064796ad517ecfea7ccf6be7f88b6eba1f175da253f805c4e",
+      "size": 12088
+    },
+    {
+      "path": "pack/metin2_patch_anglar_dungeon_monster.data",
+      "sha256": "5bd13e332be9b075e3b7182291e24c812b22b3653887db226dccae13aad16e46",
+      "size": 107475048
+    },
+    {
+      "path": "pack/metin2_patch_anglar_dungeon_monster.index",
+      "sha256": "db23f28ce2acbc813821d3efb43be15709ac2968767cfd282d3c3d2974a500bc",
+      "size": 9792
+    },
+    {
+      "path": "pack/metin2_patch_arch_box.data",
+      "sha256": "38e27bd2a34aacb9664186bb8196fcd38888ae941db9facbba882268adba2c1e",
+      "size": 101587
+    },
+    {
+      "path": "pack/metin2_patch_arch_box.index",
+      "sha256": "cd1ed5b2cb824ade53d4e1ac821c6ed80b9c7dfc72f73edaf7ab882d2fabcc08",
+      "size": 368
+    },
+    {
+      "path": "pack/metin2_patch_arena.data",
+      "sha256": "435ef4b80b4218f62793c1cfed0728aa26c934aa81d132e7638ac1d1f3e4f5d9",
+      "size": 44505745
+    },
+    {
+      "path": "pack/metin2_patch_arena.index",
+      "sha256": "abf8b303eebb6dd535ba5d1d25d12551248da571c5895df18fddb6c38cae3074",
+      "size": 11992
+    },
+    {
+      "path": "pack/metin2_patch_balance.data",
+      "sha256": "7cceddbe72d2bdf2355cc578cc8ed392e43247111a5de3ea4a66f384713b7a44",
+      "size": 447834
+    },
+    {
+      "path": "pack/metin2_patch_balance.index",
+      "sha256": "98ab24def961a3d74f11441e3d50892ebebb19c1be15c6ac5b8089995175aa14",
+      "size": 3152
+    },
+    {
+      "path": "pack/metin2_patch_battlefied.data",
+      "sha256": "c68eb20377724901c2cc787c15f2ce9a13defc00d120973f04dffdb9c8f905f2",
+      "size": 2763481
+    },
+    {
+      "path": "pack/metin2_patch_battlefied.index",
+      "sha256": "5c867e357225d01906ec1db3e3620b3d52a09c692d09d0305c1520b7e47385f8",
+      "size": 5592
+    },
+    {
+      "path": "pack/metin2_patch_beta_items.data",
+      "sha256": "4929615b82b517fa38894507c18d8a10dab1066313ca98e895f7d7218fcaf6d1",
+      "size": 122346858
+    },
+    {
+      "path": "pack/metin2_patch_beta_items.index",
+      "sha256": "9e24236df070749e239ad33a499cf242cde9818b5708b4b5fcf3a65c12ca5819",
+      "size": 60952
+    },
+    {
+      "path": "pack/metin2_patch_catch_king.data",
+      "sha256": "da65ccc960c861d740bcde707baa08ed5a987ff17dae108b83b2af42615cdc86",
+      "size": 211117
+    },
+    {
+      "path": "pack/metin2_patch_catch_king.index",
+      "sha256": "bfb5d0abdb0b1c68c4e294541523862d3942cb96dfd5c4ec630fdc862909ba16",
+      "size": 1456
+    },
+    {
+      "path": "pack/metin2_patch_crystal_dungeon.data",
+      "sha256": "aab4f3b1ff12d3fb8146eef94ba521d712667bf72616c353688c168d22bfe4cf",
+      "size": 40032912
+    },
+    {
+      "path": "pack/metin2_patch_crystal_dungeon.index",
+      "sha256": "34251697279fb4a4a52729a845ed2938bb1cfbe5ad9deb560802eca13bc5ad41",
+      "size": 21008
+    },
+    {
+      "path": "pack/metin2_patch_defensewave.data",
+      "sha256": "c6c3c1038cb72e3bc1d57d18c2bb14f033c173e407a0885f0e6c3b0d41f93bca",
+      "size": 16866368
+    },
+    {
+      "path": "pack/metin2_patch_defensewave.index",
+      "sha256": "2fb7ef42d8f43cc63a2127a420b7bfdaf29cffcc2c9bd6ead45c522ac2cda44b",
+      "size": 9664
+    },
+    {
+      "path": "pack/metin2_patch_defensewave_mob.data",
+      "sha256": "fbff9cc00060ba7bd467da197ed6ee47fe5695fcc9005b98f5199a3ad2a3d8ce",
+      "size": 28189178
+    },
+    {
+      "path": "pack/metin2_patch_defensewave_mob.index",
+      "sha256": "2198512fed9e49a8f4603b7e9b98f627eef5a79a5346b12571abcb6f1dc1892b",
+      "size": 19544
+    },
+    {
+      "path": "pack/metin2_patch_dungeon_info.data",
+      "sha256": "ff38a736e0f953af29a5a23e64ad1618d6e81d57bc467637b9e35bd5588f3d6c",
+      "size": 719890
+    },
+    {
+      "path": "pack/metin2_patch_dungeon_info.index",
+      "sha256": "aa3ccdf7af2a4a4473cd81640a0ee4b4fc11e385c2d2b34a436bb085e017f137",
+      "size": 1488
+    },
+    {
+      "path": "pack/metin2_patch_fish_event.data",
+      "sha256": "786081adf05716ea593344db07bba32fab97e63d1fa7e4f66a224216fc9c9d7a",
+      "size": 270381
+    },
+    {
+      "path": "pack/metin2_patch_fish_event.index",
+      "sha256": "e9e8a419ae8ca2a2276865257653e1f37b9014d7e27e98b870fa51080f72dbaa",
+      "size": 856
+    },
+    {
+      "path": "pack/metin2_patch_flag.data",
+      "sha256": "666f5e362306a5df23a1d62d0ad2ed309679b4e139a2bd22193e6142b00d79f9",
+      "size": 7635
+    },
+    {
+      "path": "pack/metin2_patch_flag.index",
+      "sha256": "86b9b5afe51df11c34cdd04c2c346d3717ca0b3ba728e9b82093565b0f5ddcb6",
+      "size": 816
+    },
+    {
+      "path": "pack/metin2_patch_gem.data",
+      "sha256": "dbbb5e5cd7dca74b2296652c6b1c40e81f83f0428bc8b392f2c6b65cc7089961",
+      "size": 1165949
+    },
+    {
+      "path": "pack/metin2_patch_gem.index",
+      "sha256": "e301c5d9b943ea88a853064e2b5a9d8de59ddb0ca0a9f988c1506b0920f68e59",
+      "size": 1472
+    },
+    {
+      "path": "pack/metin2_patch_guild.data",
+      "sha256": "a98746899f2490abc942efcccd1e8a69a1c3935564bb8988345a702bb8d19f49",
+      "size": 1165950
+    },
+    {
+      "path": "pack/metin2_patch_guild.index",
+      "sha256": "158e29cf1444de5ac1b84c57856f9e11c582d0c1fc6ac6cdcb50d2f8b6cbba9c",
+      "size": 312
+    },
+    {
+      "path": "pack/metin2_patch_guild_pve.data",
+      "sha256": "d51c721be857bd16e0b5890cccf3419cd759079f2810a6bc2d0c15194f0a571b",
+      "size": 142270957
+    },
+    {
+      "path": "pack/metin2_patch_guild_pve.index",
+      "sha256": "22d54592bab16eecb25bc387e09e5d384fb19469e349bfdb5055a692b5573ca4",
+      "size": 95432
+    },
+    {
+      "path": "pack/metin2_patch_heald.data",
+      "sha256": "233978091033d18e89e7d65601e5303791ca84c4716f471558dd88578b566d9e",
+      "size": 257818
+    },
+    {
+      "path": "pack/metin2_patch_heald.index",
+      "sha256": "1ba633994ddbec97295f7e2210d5e7f06ceab736b51c9b5f5f64dde8974ba89c",
+      "size": 560
+    },
+    {
+      "path": "pack/metin2_patch_labyrinth.data",
+      "sha256": "138aed2b557fb69b6b39a964c5193e4b3b5be3950f50497a7f9ef67896c5a839",
+      "size": 11952677
+    },
+    {
+      "path": "pack/metin2_patch_labyrinth.index",
+      "sha256": "5c4525add059e50c3ce91ba6eaeb2a6ea0dee1030a23bf894df534f6ebf40c55",
+      "size": 16272
+    },
+    {
+      "path": "pack/metin2_patch_luck.data",
+      "sha256": "3294776f0293970b01d89d5e49ccd49d63916024373f3beb94d46081966c721a",
+      "size": 3991243
+    },
+    {
+      "path": "pack/metin2_patch_luck.index",
+      "sha256": "ae2e644e6706c08df17866e244a1cbd7973b306197b6e55d69f001ede3edbf14",
+      "size": 3200
+    },
+    {
+      "path": "pack/metin2_patch_map_a2.data",
+      "sha256": "8e786db18e58fa0e6e75f505f245cf14d36ce34e68feb7a5740876494cdc9197",
+      "size": 13820110
+    },
+    {
+      "path": "pack/metin2_patch_map_a2.index",
+      "sha256": "2336248263063511807f028e5834684ab15267526c6ad59566d28e806056eb10",
+      "size": 9984
+    },
+    {
+      "path": "pack/metin2_patch_map_smhdungeon.data",
+      "sha256": "8e7debd6037eeea90ad026328128929f5e3733eeb70436de82439dee8298f273",
+      "size": 32150418
+    },
+    {
+      "path": "pack/metin2_patch_map_smhdungeon.index",
+      "sha256": "83911088164943e9cba8378a83265cbedc6f3c1478222e50ca1d1f66f44a5349",
+      "size": 14416
+    },
+    {
+      "path": "pack/metin2_patch_maps.data",
+      "sha256": "363b21d2385432ae9a214e53d6fc90ac92553a52c43b3de46ab170e045ebbf79",
+      "size": 555267524
+    },
+    {
+      "path": "pack/metin2_patch_maps.index",
+      "sha256": "6603e57bdf5066b520e07bddaad23a9142786c1390100b26c8203544251b369c",
+      "size": 314792
+    },
+    {
+      "path": "pack/metin2_patch_messenger.data",
+      "sha256": "9adf5ca6ec823c619181a3067f2ee142b6b31363a1bbd47c41af339e9f13f7c8",
+      "size": 361221
+    },
+    {
+      "path": "pack/metin2_patch_messenger.index",
+      "sha256": "47db82d515e0fd7f6be689253fc1c833946e855c05ccd4af7353a9c7edd871fd",
+      "size": 368
+    },
+    {
+      "path": "pack/metin2_patch_mushroom.data",
+      "sha256": "1632cda3414c09c765bc7e1b8f39b6031badf775676946a99317f550209f6521",
+      "size": 66049847
+    },
+    {
+      "path": "pack/metin2_patch_mushroom.index",
+      "sha256": "9397b34a9a93f3fc5e1f458dd65a55f8057f9eb8d355071022f0004b5af8c648",
+      "size": 16712
+    },
+    {
+      "path": "pack/metin2_patch_myshop_deco.data",
+      "sha256": "e322d176d34b47346649ae41c36f0484c073de841e408501182890433d2b18c3",
+      "size": 8013038
+    },
+    {
+      "path": "pack/metin2_patch_myshop_deco.index",
+      "sha256": "62b831e69c5c81e8659b088b7dcb7179adff592f1f72a48e99a5652b78297440",
+      "size": 5904
+    },
+    {
+      "path": "pack/metin2_patch_new_emotions.data",
+      "sha256": "8cee556a2a4ff5e65f2d43385eb9e38a4abc5b55baf55c030c2c0c835f7ad573",
+      "size": 10974797
+    },
+    {
+      "path": "pack/metin2_patch_new_emotions.index",
+      "sha256": "1fcd29daf9a0ddd1fd518dc18037856859c0da26283d38259c9c22f8fd044ded",
+      "size": 4888
+    },
+    {
+      "path": "pack/metin2_patch_new_event.data",
+      "sha256": "903fc209464bdcadb941adcd61fb1100320436cf11e9555f51bae0447b4eaa76",
+      "size": 77626
+    },
+    {
+      "path": "pack/metin2_patch_new_event.index",
+      "sha256": "50fc1f110b220b69f650a8d259a91b5fd6ecb179b8c88959a0aaa6243d2c8ad4",
+      "size": 264
+    },
+    {
+      "path": "pack/metin2_patch_new_pet.data",
+      "sha256": "3a6908e196e2fb53ab73407cf512c28ec8f96a23834b2c56c15231b2ed69558d",
+      "size": 6790777
+    },
+    {
+      "path": "pack/metin2_patch_new_pet.index",
+      "sha256": "c3459a5d0bafe05633815f3243750a728380af1fb7da88d5def1d705e9517779",
+      "size": 6552
+    },
+    {
+      "path": "pack/metin2_patch_new_ui.data",
+      "sha256": "375ba74d30c31d8456a87dbb165a2c73fb0a8c45ad6f65edd75023e2f142775e",
+      "size": 5034406
+    },
+    {
+      "path": "pack/metin2_patch_new_ui.index",
+      "sha256": "c684287e6413d4a57745b0d112b2ffb2bb570e7482d85ea6b5ad47a3e5c5d8cc",
+      "size": 10888
+    },
+    {
+      "path": "pack/metin2_patch_ork.data",
+      "sha256": "007d91ea31b742d23d1a58a4998293f24cd459ea367dfddc1ffbf3b0819c163c",
+      "size": 13054080
+    },
+    {
+      "path": "pack/metin2_patch_ork.index",
+      "sha256": "f17ea92a001e6ca0be739dcba9ec32dd2afc6ee5494698dc55cccf27510349d5",
+      "size": 5520
+    },
+    {
+      "path": "pack/metin2_patch_pets_mounts.data",
+      "sha256": "3c84321c5240cabbb7269c527472124bdddbc201f1cc2a7049e8d34f2c6ee20b",
+      "size": 37840059
+    },
+    {
+      "path": "pack/metin2_patch_pets_mounts.index",
+      "sha256": "be75d20965586de6498d158d9e71c1d5736384b77c23f1a7ccbfd241ccd4540c",
+      "size": 33976
+    },
+    {
+      "path": "pack/metin2_patch_private_search.data",
+      "sha256": "ce67889e655b713c66760eebb4cb0a2b6a50a82b281847dd052c2127daf3ee9f",
+      "size": 4522
+    },
+    {
+      "path": "pack/metin2_patch_private_search.index",
+      "sha256": "8c7fce1dd296245325999044965ef97cca746180dd2d9124080fe7e4fff13986",
+      "size": 1048
+    },
+    {
+      "path": "pack/metin2_patch_rank.data",
+      "sha256": "e7b162258e2578b1fee951bb0b70f198197da4a30aa191561dc9ec49f70aa48d",
+      "size": 12690
+    },
+    {
+      "path": "pack/metin2_patch_rank.index",
+      "sha256": "d01dc1abd47a6dfdd49a9c294e24b9a24b552967b93d17089e82ccefeb04983d",
+      "size": 344
+    },
+    {
+      "path": "pack/metin2_patch_rare_system.data",
+      "sha256": "15a03ca8ab6a0b16e9df85195262129ceab7dc520da6a8dfc71bac1bb53f8afb",
+      "size": 1129638
+    },
+    {
+      "path": "pack/metin2_patch_rare_system.index",
+      "sha256": "70281ea75f705775b275721e2b554e12d8fbe5f0516eb670d849174b33baf3e6",
+      "size": 2224
+    },
+    {
+      "path": "pack/metin2_patch_sould.data",
+      "sha256": "988a7d2750dfbda9f529dc916774f71dbf52ce99b26c698de7928384dec82aae",
+      "size": 2409966
+    },
+    {
+      "path": "pack/metin2_patch_sould.index",
+      "sha256": "9d0db82faad529eb0652960f96c1d444e648b4fc3ea26dc761f56e67e3ec2687",
+      "size": 304
+    },
+    {
+      "path": "pack/metin2_patch_ts_snow_dungeon.data",
+      "sha256": "59b04c897b5b3cdc9dc264b705c9088117a76e7a61303591f93a377abbb5912f",
+      "size": 4709332
+    },
+    {
+      "path": "pack/metin2_patch_ts_snow_dungeon.index",
+      "sha256": "6a128a28f78f3822811ad3644c55007c9067529fce15d71897f947c8e34f9ab1",
+      "size": 3560
+    },
+    {
+      "path": "pack/monster.data",
+      "sha256": "9aa0ca6f25f919a2e7a227d8821f2e45a47e4632719cf7980ad10b462ff53bab",
+      "size": 123595689
+    },
+    {
+      "path": "pack/monster.index",
+      "sha256": "bbed92f1974ca049681c91f3f36e45839458c872353b67f0d507905349cff6cb",
+      "size": 120616
+    },
+    {
+      "path": "pack/monster2.data",
+      "sha256": "0322ae3bbe472a26aa5ba8d9a825edc078f68157b6008a651fca8fb2dcd5744d",
+      "size": 201901371
+    },
+    {
+      "path": "pack/monster2.index",
+      "sha256": "c45c0aa5355cb4161ba6c7787f67853e9ea57c321815cb8e35042a6285e63d0c",
+      "size": 189472
+    },
+    {
+      "path": "pack/npc.data",
+      "sha256": "188f440f73787d7e5b6ab29fd489932abf54dc69a170b87c5aa6c82491b0db15",
+      "size": 117332516
+    },
+    {
+      "path": "pack/npc.index",
+      "sha256": "ec40d96c61a263b85cb2a9f8a2bb7352157ad3d542ca4d448b21aaff68523f90",
+      "size": 92496
+    },
+    {
+      "path": "pack/outdoorA1.data",
+      "sha256": "7383e78a5598ace2d37d4502e4fa8df7b537440c5a448183c6499f43fc636f96",
+      "size": 7984105
+    },
+    {
+      "path": "pack/outdoorA1.index",
+      "sha256": "d65a79ae073950d7c518eaa8d8ba8d94f5e9824ed213aeb55774efeae4d0fd21",
+      "size": 5768
+    },
+    {
+      "path": "pack/outdoorA2.data",
+      "sha256": "b3c4da02b75f1e04564c6da11b0a75e0e3217bde99df176652bfa80e8fb3ba73",
+      "size": 14194839
+    },
+    {
+      "path": "pack/outdoorA2.index",
+      "sha256": "9570932c96bb48884ee3dd57f451d9578372ceb79689a9a3ededac72c6c93baa",
+      "size": 9920
+    },
+    {
+      "path": "pack/outdoorA3.data",
+      "sha256": "06ea0e3a109f4bdcc28a6c61f65ca1ca6ba5674ac66c0838a395b9435bc523c0",
+      "size": 6405352
+    },
+    {
+      "path": "pack/outdoorA3.index",
+      "sha256": "93d02e1f9baaa0f11410ca2484056305f448b6bdf11912ee28848a957c7d3879",
+      "size": 4784
+    },
+    {
+      "path": "pack/outdoorB1.data",
+      "sha256": "8bd3254e28fb24ca065e619c1578a2e7d48009f5611777987c18f1927d9cdbdd",
+      "size": 8983996
+    },
+    {
+      "path": "pack/outdoorB1.index",
+      "sha256": "60d4ae54d042260376f9e885b0344c7311b8f33415e3d8b880c2f820f64d387e",
+      "size": 6488
+    },
+    {
+      "path": "pack/outdoorB3.data",
+      "sha256": "386f65d567131f25c12875da45f4146e1a4b0512d784efc67be4de50a97ca0d3",
+      "size": 7193163
+    },
+    {
+      "path": "pack/outdoorB3.index",
+      "sha256": "c07df9cb1548eec63283a553049aa4fd923d2b29890cc137cf6c39790edfde42",
+      "size": 5408
+    },
+    {
+      "path": "pack/outdoorC1.data",
+      "sha256": "a8fd075dd43b4b6f46ff7b2d5a6cc5bc36be481c9a601344780c1b403235ddd6",
+      "size": 7938693
+    },
+    {
+      "path": "pack/outdoorC1.index",
+      "sha256": "79384f302f7ea893ed8ae0d35f3b5225e0ed321f020e98dd8cc865f029204c12",
+      "size": 5704
+    },
+    {
+      "path": "pack/outdoorC3.data",
+      "sha256": "097c45f1f112a19299a078df469886b68299109bcdfff7431ea89297c30de001",
+      "size": 6334064
+    },
+    {
+      "path": "pack/outdoorC3.index",
+      "sha256": "3103d86bc9432c1b67f9e3bdca610622434e60703cdec3d02d0dc9ca2c9b1c21",
+      "size": 4656
+    },
+    {
+      "path": "pack/pc.data",
+      "sha256": "4541fdb5e7ae385872c5fdd550accd0a5d8bcb4b091b4236532fab40fa55f82c",
+      "size": 416358915
+    },
+    {
+      "path": "pack/pc.index",
+      "sha256": "5e36c93cc8f6e1f418036c5d740627a01375060f49b5a4ce10eae3dc980924de",
+      "size": 137816
+    },
+    {
+      "path": "pack/pc2.data",
+      "sha256": "8d0f835f65257cf969cecbe737cea4bd184ff1e5274f1d40570488a25fe5a07c",
+      "size": 350988582
+    },
+    {
+      "path": "pack/pc2.index",
+      "sha256": "7dec7663e10e3c1be5c6bba1660bbc4b52d534f8faecbb391279f612e1cb2322",
+      "size": 103896
+    },
+    {
+      "path": "pack/pc3.data",
+      "sha256": "034e7553ab5a8caecfee1b846e32a49e817bed8a4b805759b207171f62cbb317",
+      "size": 69842854
+    },
+    {
+      "path": "pack/pc3.index",
+      "sha256": "d0b1b6dbe07f72401b8836f35f2cec4c6547cfbf2054842251a1925e8e606575",
+      "size": 23584
+    },
+    {
+      "path": "pack/property.data",
+      "sha256": "b2529702cc3bb67a69ecebf4c2e52db236c093911a4a2d8ab8a6b992e3bf3bb2",
+      "size": 13871887
+    },
+    {
+      "path": "pack/property.index",
+      "sha256": "40c9e10cee8aad0560e745d4a954be7f9cd73af9c483d57517bf46df108c8154",
+      "size": 111160
+    },
+    {
+      "path": "pack/root.data",
+      "sha256": "981677a2362fb030e3d826bd5010a81e12f47722cfa48a22f423bcf1d0afb46e",
+      "size": 5328232
+    },
+    {
+      "path": "pack/root.index",
+      "sha256": "f63b794666ca37b1b8814bc22f42d913065a28035241d886d4d9f3d892ef3df9",
+      "size": 11464
+    },
+    {
+      "path": "pack/sound.data",
+      "sha256": "814a6e961898a54aeac5993f5f67f924a80bfccf6319d3a4f5f8e69e574a3230",
+      "size": 108971899
+    },
+    {
+      "path": "pack/sound.index",
+      "sha256": "46c46db9549c9499de9c2766774d37eeb24e68528e5a5fdd1a65ba3f57b1b414",
+      "size": 158400
+    },
+    {
+      "path": "pack/terrain.data",
+      "sha256": "6dabe765f85b7f88ee95ce8a227c304240a354177dab72c5d088dbc8c957a3c5",
+      "size": 63529611
+    },
+    {
+      "path": "pack/terrain.index",
+      "sha256": "f3aa77a5b47a1edac6212d5157c6082c833cf39dbd4ec36c754e5054f620f461",
+      "size": 15272
+    },
+    {
+      "path": "pack/textureset.data",
+      "sha256": "461e48bbaed7297191efed3aa04c89959a92cd8bbc17ed7c7d5285f4c08b5043",
+      "size": 286577
+    },
+    {
+      "path": "pack/textureset.index",
+      "sha256": "e5670a68bd026a1dcc24ce140eb70b778a379d9d6b58b6a6784b172bc6aa3501",
+      "size": 5120
+    },
+    {
+      "path": "pack/tree.data",
+      "sha256": "89ee600ade57fc62ce2a9aa28f7863cf1feac566189261538c161c59aa3c71d4",
+      "size": 45095192
+    },
+    {
+      "path": "pack/tree.index",
+      "sha256": "bd58892ef4aaaf26987c6e49bfd2f28ae281c49a004f21488f6cfd3d7fd4c94d",
+      "size": 12864
+    },
+    {
+      "path": "pack/zone.data",
+      "sha256": "dbebf9b4b55b32a73813baf6afe5d2e837fae153568b4c86cb4f60ef3619f19d",
+      "size": 393468527
+    },
+    {
+      "path": "pack/zone.index",
+      "sha256": "8e2c7c0f5a28f3fc2d4a1e467cde5a59b6d5701ee55059ded480213285003c90",
+      "size": 157296
+    }
+  ],
+  "schema": 1
+}
