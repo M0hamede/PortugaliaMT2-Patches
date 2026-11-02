@@ -1,0 +1,12 @@
+# Ignorar os ficheiros do cliente Metin2
+/*
+
+# Permitir ficheiros de controlo do GitHub
+!/.gitignore
+!/README.md
+
+# Permitir a futura configuracao do patcher
+!/patcher/
+!/patcher/**
+!/.github/
+!/.github/**
