@@ -5,8 +5,15 @@
 !/.gitignore
 !/README.md
 
-# Permitir a futura configuracao do patcher
+# Permitir scripts e indice do patcher
 !/patcher/
 !/patcher/**
+
+# Ignorar ficheiros temporarios do Python
+/patcher/**/__pycache__/
+/patcher/**/*.pyc
+/patcher/**/*.pyo
+
+# Permitir configuracoes do GitHub
 !/.github/
 !/.github/**
