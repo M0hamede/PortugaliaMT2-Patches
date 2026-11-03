@@ -7,8 +7,8 @@
     },
     {
       "path": "metin2client.exe",
-      "sha256": "44366ee310cd0c279be3311523813a4f0964d925d9ed2e2d0a239f7fc33ade54",
-      "size": 3417088
+      "sha256": "6d4174ef4d3e90347dc83f8414751b382859d325ae19778829cf8fe2b2c17d2b",
+      "size": 3415040
     },
     {
       "path": "pack/bgm.data",
@@ -32,13 +32,13 @@
     },
     {
       "path": "pack/etc.data",
-      "sha256": "c5aab50ffb660ea37aae524e7b21375c950ac8e22c171c470f9d02a7abfd4a39",
-      "size": 115980683
+      "sha256": "3ceb3dc8bd5e3864cfea6b22674d5c5969940cfc0f9c0db72109d8903bd36877",
+      "size": 115983693
     },
     {
       "path": "pack/etc.index",
-      "sha256": "8280b0c9f878e4b38b64b5e04aae4f9cca3f488b85873cbad6d4070c4d394666",
-      "size": 142752
+      "sha256": "dfd9638c93f44240d6c200631621ff8e49815bc7b6466d658f80539b9836026b",
+      "size": 142984
     },
     {
       "path": "pack/guild.data",
@@ -52,13 +52,13 @@
     },
     {
       "path": "pack/icon.data",
-      "sha256": "bdd9fcb1979a5a37f2915d9922a76276ce4ca7cc242bbfff229969c7eb42a836",
-      "size": 22795885
+      "sha256": "8bce03bdd631901e67d054ebd832d5eae422c3ef36a8b6cbb6ec5a88ce2d3067",
+      "size": 22800921
     },
     {
       "path": "pack/icon.index",
-      "sha256": "90946a7ce3fee69245d623bbe5e14126ecd25940fb64ee5f9a853d76becafdbc",
-      "size": 112584
+      "sha256": "c00f866eaf9154fe8bce4127f0d4bfd9d37643a92faad28de70dd5926d05de04",
+      "size": 112744
     },
     {
       "path": "pack/item.data",
@@ -632,12 +632,12 @@
     },
     {
       "path": "pack/root.data",
-      "sha256": "1d56090accb6c54835da7b488478927d0405f008b9d4af6cabe606743726c7b8",
-      "size": 5328213
+      "sha256": "547ad9dfb9bd3d17d99a36461b3e130ee148f53e94bb0e803f9c80a4e0438dee",
+      "size": 5339791
     },
     {
       "path": "pack/root.index",
-      "sha256": "211daed272d5e141490fb8072f9d08118ead76d12edf61802d750f1d4f7c7085",
+      "sha256": "ae09d1df01178f55bbe9dcfd9e9f10ca6fde14d5d2a88605d387b112594dff85",
       "size": 11464
     },
     {
