@@ -7,7 +7,7 @@
     },
     {
       "path": "metin2client.exe",
-      "sha256": "6d4174ef4d3e90347dc83f8414751b382859d325ae19778829cf8fe2b2c17d2b",
+      "sha256": "961961a642fa8a4b2b4414d14af061f6a3bb9dd112b714dfddace958a0b4ac83",
       "size": 3415040
     },
     {
@@ -72,13 +72,13 @@
     },
     {
       "path": "pack/locale_tr.data",
-      "sha256": "bab4e41695ccdad1a514cb24ab2e1b6735828328b27c8d16ac037d14943bea6f",
-      "size": 190947424
+      "sha256": "5a681afa501bf909ccb532d12bc7c79041a2bf1df292d197d6b6191977d48c22",
+      "size": 190153513
     },
     {
       "path": "pack/locale_tr.index",
-      "sha256": "35b25e4aa14970953884af1160bf7180dc9b2bcbe08fe5ed1f423353b3f7c23c",
-      "size": 98600
+      "sha256": "10d203b3924c92abbd890d8f9e9f6a69a316e705cdf760ff64583d4a2bc36061",
+      "size": 98424
     },
     {
       "path": "pack/metin2_patch_12zi_map.data",
@@ -632,12 +632,12 @@
     },
     {
       "path": "pack/root.data",
-      "sha256": "547ad9dfb9bd3d17d99a36461b3e130ee148f53e94bb0e803f9c80a4e0438dee",
-      "size": 5339791
+      "sha256": "1c35acbeeb25757717dd643187d4434ff59611afceb12f658b48f7ffa861827b",
+      "size": 5341314
     },
     {
       "path": "pack/root.index",
-      "sha256": "ae09d1df01178f55bbe9dcfd9e9f10ca6fde14d5d2a88605d387b112594dff85",
+      "sha256": "73e28feb0f79471214fad7b7188fade94b5895566ab78586a751d40624a3df58",
       "size": 11464
     },
     {
