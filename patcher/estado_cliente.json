@@ -7,8 +7,8 @@
     },
     {
       "path": "metin2client.exe",
-      "sha256": "961961a642fa8a4b2b4414d14af061f6a3bb9dd112b714dfddace958a0b4ac83",
-      "size": 3415040
+      "sha256": "d8120a3a05179ccf6cedc2eb00a4acc4f48d88aed539c20294155db20408c08a",
+      "size": 3416576
     },
     {
       "path": "pack/bgm.data",
@@ -32,13 +32,13 @@
     },
     {
       "path": "pack/etc.data",
-      "sha256": "3ceb3dc8bd5e3864cfea6b22674d5c5969940cfc0f9c0db72109d8903bd36877",
-      "size": 115983693
+      "sha256": "91ff9a9c793125501ff9712e12d82306936b13362c35baf311d948ef1ce1be19",
+      "size": 116140314
     },
     {
       "path": "pack/etc.index",
-      "sha256": "dfd9638c93f44240d6c200631621ff8e49815bc7b6466d658f80539b9836026b",
-      "size": 142984
+      "sha256": "d40c039d99275fa87ae7b317d03754a063d74708f74a26236115217590422540",
+      "size": 143392
     },
     {
       "path": "pack/guild.data",
@@ -72,13 +72,13 @@
     },
     {
       "path": "pack/locale_tr.data",
-      "sha256": "5a681afa501bf909ccb532d12bc7c79041a2bf1df292d197d6b6191977d48c22",
-      "size": 190153513
+      "sha256": "51d2248f26841ca83bb9470439d64cce4b3bb65d9b9c8159862fe3402a6cca87",
+      "size": 190609684
     },
     {
       "path": "pack/locale_tr.index",
-      "sha256": "10d203b3924c92abbd890d8f9e9f6a69a316e705cdf760ff64583d4a2bc36061",
-      "size": 98424
+      "sha256": "1de60b2e4786b681f80751004aef709ebf9e564f81f804eca574ce77babc8a2f",
+      "size": 98512
     },
     {
       "path": "pack/metin2_patch_12zi_map.data",
@@ -502,13 +502,13 @@
     },
     {
       "path": "pack/monster2.data",
-      "sha256": "0322ae3bbe472a26aa5ba8d9a825edc078f68157b6008a651fca8fb2dcd5744d",
-      "size": 201901371
+      "sha256": "61bbc5f6b1b37b908ccd7d6bb75f951e868204ec761104637269dfdd1546cc92",
+      "size": 215945161
     },
     {
       "path": "pack/monster2.index",
-      "sha256": "c45c0aa5355cb4161ba6c7787f67853e9ea57c321815cb8e35042a6285e63d0c",
-      "size": 189472
+      "sha256": "9e0c320ec59e344100a2f76e6bb81f092473d692afe6d41835600989b3588c66",
+      "size": 193528
     },
     {
       "path": "pack/npc.data",
@@ -632,13 +632,13 @@
     },
     {
       "path": "pack/root.data",
-      "sha256": "1c35acbeeb25757717dd643187d4434ff59611afceb12f658b48f7ffa861827b",
-      "size": 5341314
+      "sha256": "86879aceb6986de7808c1c74564b3a2f881768ffc7513f5663c3300dc933a5b2",
+      "size": 4679996
     },
     {
       "path": "pack/root.index",
-      "sha256": "73e28feb0f79471214fad7b7188fade94b5895566ab78586a751d40624a3df58",
-      "size": 11464
+      "sha256": "eabb98e03ad275f7470f86eb1846f00428731ef37234e5c5946a59b95df0b69b",
+      "size": 11760
     },
     {
       "path": "pack/sound.data",
@@ -679,6 +679,16 @@
       "path": "pack/tree.index",
       "sha256": "bd58892ef4aaaf26987c6e49bfd2f28ae281c49a004f21488f6cfd3d7fd4c94d",
       "size": 12864
+    },
+    {
+      "path": "pack/ui.data",
+      "sha256": "96c01a0fb3c82d4e5afbec85396b691a82c17bce26684b1a296fca3801328c56",
+      "size": 156621
+    },
+    {
+      "path": "pack/ui.index",
+      "sha256": "79bfcf274542bddb9d4fbd921daf366680fb45d508f6cf251f2469aa9f6522c8",
+      "size": 520
     },
     {
       "path": "pack/zone.data",
