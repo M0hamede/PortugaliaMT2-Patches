@@ -7,8 +7,8 @@
     },
     {
       "path": "metin2client.exe",
-      "sha256": "d8120a3a05179ccf6cedc2eb00a4acc4f48d88aed539c20294155db20408c08a",
-      "size": 3416576
+      "sha256": "a00328bd55505cddd965ffc90c7ba204bb801461e743c4797435a01e66038ce9",
+      "size": 3446272
     },
     {
       "path": "pack/bgm.data",
@@ -32,13 +32,13 @@
     },
     {
       "path": "pack/etc.data",
-      "sha256": "91ff9a9c793125501ff9712e12d82306936b13362c35baf311d948ef1ce1be19",
-      "size": 116140314
+      "sha256": "a6cfb062d1eec80f2f5fc71e825ebcc2bee9035c0fffa6b2348bde720abfd398",
+      "size": 119703178
     },
     {
       "path": "pack/etc.index",
-      "sha256": "d40c039d99275fa87ae7b317d03754a063d74708f74a26236115217590422540",
-      "size": 143392
+      "sha256": "1fe4a926b3c86e98bb043e8700bc9aa855cb89c47af96eab4f12b5605043cbaa",
+      "size": 149672
     },
     {
       "path": "pack/guild.data",
@@ -52,13 +52,13 @@
     },
     {
       "path": "pack/icon.data",
-      "sha256": "8bce03bdd631901e67d054ebd832d5eae422c3ef36a8b6cbb6ec5a88ce2d3067",
-      "size": 22800921
+      "sha256": "5fdd927c76b757d7588020aa180fde596ace05d04c5c61f18f2396c2f4805cf3",
+      "size": 22813289
     },
     {
       "path": "pack/icon.index",
-      "sha256": "c00f866eaf9154fe8bce4127f0d4bfd9d37643a92faad28de70dd5926d05de04",
-      "size": 112744
+      "sha256": "4caa6d3ea413268ae0a1766f73761313f1cb7180783758959225d91fb0c4c6d2",
+      "size": 112856
     },
     {
       "path": "pack/item.data",
@@ -72,13 +72,13 @@
     },
     {
       "path": "pack/locale_tr.data",
-      "sha256": "51d2248f26841ca83bb9470439d64cce4b3bb65d9b9c8159862fe3402a6cca87",
-      "size": 190609684
+      "sha256": "7ed7b1b638868771f126287188c857ce29f044314876271c1c0f40865b65c25e",
+      "size": 190610104
     },
     {
       "path": "pack/locale_tr.index",
-      "sha256": "1de60b2e4786b681f80751004aef709ebf9e564f81f804eca574ce77babc8a2f",
-      "size": 98512
+      "sha256": "88108221934411c44509b3f1449f70317bc7f6ab88c6593745adcd3a03734e54",
+      "size": 98504
     },
     {
       "path": "pack/metin2_patch_12zi_map.data",
@@ -632,13 +632,13 @@
     },
     {
       "path": "pack/root.data",
-      "sha256": "86879aceb6986de7808c1c74564b3a2f881768ffc7513f5663c3300dc933a5b2",
-      "size": 4679996
+      "sha256": "d54245e5073e46280a9688014f5fd674f9d9cad9998c7fdf4a191ef85a10526d",
+      "size": 5407293
     },
     {
       "path": "pack/root.index",
-      "sha256": "eabb98e03ad275f7470f86eb1846f00428731ef37234e5c5946a59b95df0b69b",
-      "size": 11760
+      "sha256": "c59cd7005c3122484989b9bdde0a72b3118ac6ca372da6080adfbb2a274d095d",
+      "size": 13024
     },
     {
       "path": "pack/sound.data",
