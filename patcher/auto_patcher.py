@@ -180,6 +180,67 @@ def release_details(tag):
         raise
 
 
+def validate_release_assets(generated, previous, folder, tag, changed_hash_count):
+    """Audit the exact assets in a release before creating or publishing it.
+
+    A previously unchanged path may need uploading again if the prior URL
+    cannot safely be reused. Hash changes alone do not determine asset count.
+    """
+    if generated.get('schema') != 1 or generated.get('version') != tag:
+        raise RuntimeError('Manifesto gerado invalido para a nova tag.')
+    old = {item['path']: item for item in previous['files']}
+    repo_prefix = f'https://github.com/{REPO}/releases/download/'
+    new_prefix = repo_prefix + tag + '/'
+    expected_assets = {}
+    for item in generated['files']:
+        rel = item['path']
+        url = item.get('url', '')
+        if not isinstance(url, str):
+            raise RuntimeError('URL de asset invalido: ' + rel)
+        if url.startswith(new_prefix):
+            name = url[len(new_prefix):]
+            if (not re.fullmatch(r'[A-Za-z0-9._-]+', name)
+                    or name in ('.', '..', 'manifest.json')
+                    or name in expected_assets):
+                raise RuntimeError('Nome de asset novo invalido ou repetido: ' + rel)
+            expected_assets[name] = item
+        else:
+            previous_item = old.get(rel)
+            if not (previous_item
+                    and url.startswith(repo_prefix)
+                    and previous_item.get('url') == url
+                    and previous_item.get('size') == item['size']
+                    and previous_item.get('sha256') == item['sha256']):
+                raise RuntimeError('URL anterior nao reutilizavel: ' + rel)
+
+    assets_dir = folder / 'assets'
+    if not assets_dir.is_dir():
+        raise RuntimeError('Diretorio de assets nao encontrado.')
+    listing = list(assets_dir.iterdir())
+    if any(not p.is_file() or p.is_symlink() for p in listing):
+        raise RuntimeError('Diretorio de assets contem entradas inesperadas.')
+    actual = {p.name for p in listing}
+    wanted = set(expected_assets) | {'manifest.json'}
+    if actual != wanted:
+        missing = sorted(wanted - actual)
+        extra = sorted(actual - wanted)
+        raise RuntimeError('Assets incompletos/inconsistentes; em falta: %s; a mais: %s' %
+                           (', '.join(missing[:5]) or 'nenhum',
+                            ', '.join(extra[:5]) or 'nenhum'))
+    if load_json(assets_dir / 'manifest.json') != generated:
+        raise RuntimeError('Manifesto de assets difere do manifesto preparado.')
+    for name, item in expected_assets.items():
+        path = assets_dir / name
+        if path.stat().st_size != item['size'] or hash_file(path) != item['sha256']:
+            raise RuntimeError('Asset com tamanho/hash invalido: ' + name)
+    if len(expected_assets) != changed_hash_count:
+        print('ASSETS_REEMITIDOS: %d ficheiros para %d hashes alterados (URLs antigos nao reutilizaveis).' %
+              (len(expected_assets), changed_hash_count))
+    print('ASSETS_VERIFICADOS: %d ficheiros + manifest.json; nenhuma entrada inesperada.' %
+          len(expected_assets))
+    return sorted(assets_dir.iterdir())
+
+
 def release(current, sha):
     APP.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix='portugalia_patch_') as tmp:
@@ -197,9 +258,7 @@ def release(current, sha):
         if ({x['path']: (x['size'], x['sha256']) for x in generated['files']} !=
                 {x['path']: (x['size'], x['sha256']) for x in current['files']}):
             raise RuntimeError('O cliente mudou durante a preparacao. Faz novo Commit + Push antes de publicar.')
-        assets = sorted((folder / 'assets').iterdir())
-        if len(assets) != n + 1:
-            raise RuntimeError('Numero de assets inesperado: ' + str(len(assets)))
+        assets = validate_release_assets(generated, previous, folder, tag, n)
         draft = release_details(tag)
         if draft is None:
             cmd('gh', 'release', 'create', tag, '--repo', REPO, '--draft',
