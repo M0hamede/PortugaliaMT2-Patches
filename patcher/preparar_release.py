@@ -9,7 +9,7 @@ from pathlib import Path
 
 INCLUDES = ['pack/*.data','pack/*.index','pack/**/*.data','pack/**/*.index',
             'pack/*.eix','pack/*.epk','pack/**/*.eix','pack/**/*.epk',
-            'locale/**/*','locale/*','metin2client.exe','config.exe']
+            'locale/**/*','locale/*','metin2client.exe','mt2moonrise.exe','config.exe']
 EXCLUDES = ['screenshots/**','syserr.txt','syslog.txt','config.cfg','*.log',
             'pack/**/*.tmp','locale/**/*.log']
 
