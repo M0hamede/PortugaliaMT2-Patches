@@ -150,12 +150,22 @@ def next_tag(tag):
     return f'v{a}.{b}.{c+1}'
 
 
+# Unica excecao de migracao permitida: executaveis antigos que deixaram
+# de existir na pasta distribuida. Nunca sao apagados nos clientes instalados.
+LEGACY_EXECUTABLES = frozenset(('config.exe', 'metin2client.exe'))
+
+
 def changed_count(previous, current):
     old = {x['path']: x for x in previous['files']}
     present = {x['path']: x for x in current['files']}
     deleted = sorted(set(old) - set(present))
+    unexpected = [path for path in deleted if path not in LEGACY_EXECUTABLES]
+    if unexpected:
+        raise RuntimeError('Ha ficheiros removidos. O patcher atual nao remove ficheiros nos clientes: ' + ', '.join(unexpected[:8]))
     if deleted:
-        raise RuntimeError('Ha ficheiros removidos. O patcher atual nao remove ficheiros nos clientes: ' + ', '.join(deleted[:8]))
+        if 'MT2Moonrise.exe' not in present:
+            raise RuntimeError('Migracao de executaveis bloqueada: MT2Moonrise.exe nao esta no indice atual.')
+        print('MIGRACAO_EXE: nomes antigos omitidos do novo manifesto (sem apagar nos clientes): ' + ', '.join(deleted))
     return sum(old.get(path, {}).get('sha256') != obj['sha256'] for path, obj in present.items())
 
 
