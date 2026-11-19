@@ -2,13 +2,8 @@
   "files": [
     {
       "path": "Config.exe",
-      "sha256": "0712aa020d9e8b249c9313eb554ef970150129f3e8a288f1ce7fe089115097ba",
-      "size": 3927552
-    },
-    {
-      "path": "MT2Moonrise.exe",
-      "sha256": "15958520168833414fa34fc05aa56a5675f8954c801e52be76c143365fdc4ae0",
-      "size": 3565056
+      "sha256": "3e58b41e5b1cff1dc4a8c50f89bf125d231cf7cccc42ca3a6e01a53803556a3b",
+      "size": 4499456
     },
     {
       "path": "pack/bgm.data",
