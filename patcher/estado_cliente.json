@@ -7,8 +7,8 @@
     },
     {
       "path": "MT2Moonrise.exe",
-      "sha256": "b2c6aeac58c3a00aa08d39d9e763eb5d3628056eb861c73631e842c10c54eb62",
-      "size": 3564544
+      "sha256": "15958520168833414fa34fc05aa56a5675f8954c801e52be76c143365fdc4ae0",
+      "size": 3565056
     },
     {
       "path": "pack/bgm.data",
@@ -22,23 +22,23 @@
     },
     {
       "path": "pack/effect.data",
-      "sha256": "7e76e02f34f72eae17d9d1269b0058ce9b8a7da9679bd77d485c4eab1d445118",
-      "size": 94503517
+      "sha256": "ca7d4c822de20466313da0887f5757085b819d388bc4a03c3dd288556b4e5487",
+      "size": 291112695
     },
     {
       "path": "pack/effect.index",
-      "sha256": "679ae363b7f157078f764b08b303a5ad36b8c7b0cc021f7a099c438df5557ae7",
-      "size": 65848
+      "sha256": "bbac43a0f7fd5721930ca24a639eaa8ace2defbea620be58633420bb4f9ac1ea",
+      "size": 110872
     },
     {
       "path": "pack/etc.data",
-      "sha256": "36dc0dcd9a6401980ad20a8ddb66d5de6e08ada99493286f254075bbda5cb671",
-      "size": 123569764
+      "sha256": "54105b18852bbe907048ed4504f5714d02824e5f48be19bd52a91191da332e9d",
+      "size": 123797495
     },
     {
       "path": "pack/etc.index",
-      "sha256": "7ee1de7ea576fa0d0e20b57ddc54d3b08431eb34e49b51cb5ca394a7b4e918cf",
-      "size": 154616
+      "sha256": "83f6f85cddc47c2a8d5f0f1011fb3b20051450011f27c3c8d909e12e49eec7e1",
+      "size": 154576
     },
     {
       "path": "pack/guild.data",
@@ -52,13 +52,13 @@
     },
     {
       "path": "pack/icon.data",
-      "sha256": "f4c6fdbb95d21fbce467710fe1cd33cecbde193da28a869c4e7039abf2944514",
-      "size": 22817429
+      "sha256": "1871c00e5a2528fb9b571e618ae4522196130a6e729f783e3b9dd856b9fa917b",
+      "size": 33853615
     },
     {
       "path": "pack/icon.index",
-      "sha256": "da9b9b4fbd8477def46ca5c9031fdd635bc2a83a5756d874b67dc26b5ed1dfe1",
-      "size": 112888
+      "sha256": "09ec51d97323000e87235c07270af48c2b81d1ce63181c65427cb331f04e2949",
+      "size": 164048
     },
     {
       "path": "pack/item.data",
@@ -72,13 +72,13 @@
     },
     {
       "path": "pack/locale_tr.data",
-      "sha256": "cf1e5a1ad6a9840bf9868d4926eba8ada04b04faf787362c0e49fb80a3aa4908",
-      "size": 190612732
+      "sha256": "7570d1ba983a4273500d0fffc6efddbe50ffba1e0f68ddeab9b5edb61c979b77",
+      "size": 190427327
     },
     {
       "path": "pack/locale_tr.index",
-      "sha256": "a605f9d0e487a92880b5d14c58105eb53896ca24d796c978ab7990b7070bb195",
-      "size": 98512
+      "sha256": "933852dc011313bb7fa76443df84ebec982bad4e8bf578c41a846d40bdac9951",
+      "size": 98472
     },
     {
       "path": "pack/metin2_patch_12zi_map.data",
@@ -492,33 +492,63 @@
     },
     {
       "path": "pack/monster.data",
-      "sha256": "9aa0ca6f25f919a2e7a227d8821f2e45a47e4632719cf7980ad10b462ff53bab",
-      "size": 123595689
+      "sha256": "1e723f49767ce635bc0e18d8e23e2c4a2c7babe38d1c662f67415ede8b614352",
+      "size": 118694028
     },
     {
       "path": "pack/monster.index",
-      "sha256": "bbed92f1974ca049681c91f3f36e45839458c872353b67f0d507905349cff6cb",
-      "size": 120616
+      "sha256": "451981db43bce6d2eceae4e7960a32badafc1de70adda3a1aecafc4d89738096",
+      "size": 121736
     },
     {
       "path": "pack/monster2.data",
-      "sha256": "61bbc5f6b1b37b908ccd7d6bb75f951e868204ec761104637269dfdd1546cc92",
-      "size": 215945161
+      "sha256": "8dbfd5e2f3cc5e663fbbb5afffb72149f054417da8a2c68303f8c867e96a78ce",
+      "size": 420346182
     },
     {
       "path": "pack/monster2.index",
-      "sha256": "9e0c320ec59e344100a2f76e6bb81f092473d692afe6d41835600989b3588c66",
-      "size": 193528
+      "sha256": "9769105685000d231f25ed4b68cdeee7afe75b24b7b3721c0a0267c5b892cba5",
+      "size": 354808
     },
     {
       "path": "pack/npc.data",
-      "sha256": "188f440f73787d7e5b6ab29fd489932abf54dc69a170b87c5aa6c82491b0db15",
-      "size": 117332516
+      "sha256": "41f489cf5400dab35ba5da58c14b43acb136635a58e63b513f584db40b2e04b2",
+      "size": 119042205
     },
     {
       "path": "pack/npc.index",
-      "sha256": "ec40d96c61a263b85cb2a9f8a2bb7352157ad3d542ca4d448b21aaff68523f90",
-      "size": 92496
+      "sha256": "023f11696f876f7d4b62b46ff9eb512712983df313ce96376da77da8a9eae19c",
+      "size": 77504
+    },
+    {
+      "path": "pack/npc2.data",
+      "sha256": "cad1419dfca51699b84c6ccf1c723771fb1086ce709b3b9049848bcb54fd50cf",
+      "size": 64588390
+    },
+    {
+      "path": "pack/npc2.index",
+      "sha256": "c8b2e5bc22014bd5887e420af654c068181f568bbd382e813d16859804aec27f",
+      "size": 51280
+    },
+    {
+      "path": "pack/npc_mount.data",
+      "sha256": "bdb7f777666f636372b4fb909f7f203d2f33c3e23bf9769751b12df2619079f2",
+      "size": 25853924
+    },
+    {
+      "path": "pack/npc_mount.index",
+      "sha256": "63d500cb84de2df325732471e68c80d9b4b350a9905e3dcb2c16708ae9bdcd8a",
+      "size": 23536
+    },
+    {
+      "path": "pack/npc_pet.data",
+      "sha256": "66180f5779d02aab758d9342482a1569dd2f8211a705f5cb2f3b32e0e21ea196",
+      "size": 34519461
+    },
+    {
+      "path": "pack/npc_pet.index",
+      "sha256": "07db231ed5fe7a6832a7570a480c5f8d8524fcc6236b7839606cb61896c2166d",
+      "size": 30592
     },
     {
       "path": "pack/outdoorA1.data",
@@ -592,33 +622,33 @@
     },
     {
       "path": "pack/pc.data",
-      "sha256": "4541fdb5e7ae385872c5fdd550accd0a5d8bcb4b091b4236532fab40fa55f82c",
-      "size": 416358915
+      "sha256": "486ab13fbe9d5bb535be49ab36b68aa66db5f76418bdeb4692e1b687c9b0377b",
+      "size": 676417924
     },
     {
       "path": "pack/pc.index",
-      "sha256": "5e36c93cc8f6e1f418036c5d740627a01375060f49b5a4ce10eae3dc980924de",
-      "size": 137816
+      "sha256": "9b1a00d4e6c6283f836fa90b21d65403d400afa571a7765c305ec95102a51fc6",
+      "size": 216080
     },
     {
       "path": "pack/pc2.data",
-      "sha256": "8d0f835f65257cf969cecbe737cea4bd184ff1e5274f1d40570488a25fe5a07c",
-      "size": 350988582
+      "sha256": "f9b281dbe189e25001bbcca0c5b221c9fc8ff853f03a8f3c2c947b112a8a5125",
+      "size": 500555234
     },
     {
       "path": "pack/pc2.index",
-      "sha256": "7dec7663e10e3c1be5c6bba1660bbc4b52d534f8faecbb391279f612e1cb2322",
-      "size": 103896
+      "sha256": "1502a049bda7aa1a20ed645b4f71202a1b5ef686447edc0c15214e74daa3f963",
+      "size": 158880
     },
     {
       "path": "pack/pc3.data",
-      "sha256": "034e7553ab5a8caecfee1b846e32a49e817bed8a4b805759b207171f62cbb317",
-      "size": 69842854
+      "sha256": "416f1cd42795b5f39a02cab59291cc6e636383fddb629171582eb5574754fad2",
+      "size": 106891968
     },
     {
       "path": "pack/pc3.index",
-      "sha256": "d0b1b6dbe07f72401b8836f35f2cec4c6547cfbf2054842251a1925e8e606575",
-      "size": 23584
+      "sha256": "3e2da73d5c83e125c6e9a7f8a5fa674576946405f61649c58092cd30e55dc304",
+      "size": 31728
     },
     {
       "path": "pack/property.data",
@@ -632,13 +662,33 @@
     },
     {
       "path": "pack/root.data",
-      "sha256": "7948da08f56107a5ab1bd1f64f3cfb7d3dbf47935ef90e7c4edc57ad95ad8d58",
-      "size": 91723740
+      "sha256": "3063cb59a4357c0850ede51f80e0ba1c026e466044606070119fb7d3101c975c",
+      "size": 92061766
     },
     {
       "path": "pack/root.index",
-      "sha256": "f0d16471736300d178fefe9e58fb9b4ee3d617995a6e9cb66b3e4b032003a9a8",
-      "size": 32112
+      "sha256": "3bc0712f3ddcb56a8e42fbe557accc8b18dc829084d8d331cd9a16ccf23adb3c",
+      "size": 32536
+    },
+    {
+      "path": "pack/season1.data",
+      "sha256": "6c267e1397f996ca7a53419e2e71fc39113ec1b1292153f4ceaa7058baa26d20",
+      "size": 170923180
+    },
+    {
+      "path": "pack/season1.index",
+      "sha256": "0b25c4500c051b0399c3a5d6f131ae8b3c6b063c9f6bfb2cc8e014632e20d10a",
+      "size": 115728
+    },
+    {
+      "path": "pack/season2.data",
+      "sha256": "0a89f92a9d790478f072ea36b59e85e054e144437c07d581fe91ae1ad5a4e463",
+      "size": 112856451
+    },
+    {
+      "path": "pack/season2.index",
+      "sha256": "c28280f8ddd54e33d4b1ac2afc37d1cbaf7027efd3753a1df6d674e15004940c",
+      "size": 81680
     },
     {
       "path": "pack/sound.data",
@@ -682,13 +732,13 @@
     },
     {
       "path": "pack/ui.data",
-      "sha256": "96c01a0fb3c82d4e5afbec85396b691a82c17bce26684b1a296fca3801328c56",
-      "size": 156621
+      "sha256": "e29c47f1906d038b749396d33beb936deade24ac67749e15c0800916c1451e1d",
+      "size": 192207873
     },
     {
       "path": "pack/ui.index",
-      "sha256": "79bfcf274542bddb9d4fbd921daf366680fb45d508f6cf251f2469aa9f6522c8",
-      "size": 520
+      "sha256": "588d148bd1f5afaab2e3b048ca5fbd879953ef0c232c6e0d82e81a0aceede7d6",
+      "size": 180016
     },
     {
       "path": "pack/zone.data",
